@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import css from "../UserMenu/UserMenu.modules.css";
 import { useAuth } from "../../hooks/useAuth";
 import { Button, Flex, Heading } from "@chakra-ui/react";
 
@@ -9,7 +8,7 @@ const UserMenu = () => {
   return (
     <nav>
       <Flex gap="20px">
-        <Link className={css.logo} to="/">
+        <Link to="/">
           <Heading as="h2" size="lg">
             PhoneBook
           </Heading>
