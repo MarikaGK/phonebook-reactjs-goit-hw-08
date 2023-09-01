@@ -13,8 +13,6 @@ Included depedencies:
 
 ### $ npm intall vite
 
-### $ npm install gh-pages --save-dev
-
 ### $ npm install @reduxjs/toolkit
 
 ### $ npm install @reduxjs/toolkit react-redux
