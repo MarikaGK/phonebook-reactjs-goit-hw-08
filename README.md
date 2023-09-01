@@ -26,6 +26,8 @@ Included depedencies:
 
 ### $ npm install react-loader-spinner --save
 
+### $ npm install notiflix
+
 ### $ npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
 
 ### $ npm install @chakra-ui/icons
