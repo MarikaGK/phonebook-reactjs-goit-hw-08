@@ -1,1 +1,1 @@
-# phonebook-reactjs-goit-hw-08
+# Simple phonebook using heroku app 
