@@ -1,8 +1,9 @@
 # Simple phonebook
 
-## What does it stands for?
+## What does it stand for?
 One page app using heroku app for backend. Allows to sign up, log in and log out new users. With possibility to menage contacts list like adding, removing and editing contact data with filtering option.
 The app is based on Vite. It includes notilfix notifications and uses axios to get back-end data.
+
 
 ## How to install and run?
 
