@@ -45,7 +45,7 @@ Add script in package.json:
 
 ## How to use the app?
 
-First of all you have to create new user using your name, email and password (it has to contain at least 8 characters). Then you can log in and in library you can create your contact list. You can filter your list by names.
+First of all you have to create new user using your name, email and password (it has to contain at least 8 characters). Then you can log in and you can create your contact list in library. You can filter your list by names.
 
 ## Credits
 
