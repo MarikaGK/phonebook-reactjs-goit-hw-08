@@ -1,0 +1,1 @@
+import{j as e,C as t,H as o,T as r}from"./index-e78c7905.js";const n=()=>e.jsxs(t,{maxW:"1600px",minW:"320px",py:"80px",centerContent:!0,children:[e.jsx(o,{as:"h1",children:"Are you lost?"}),e.jsx(r,{fontSize:"xl",fontWeight:"bold",textTransform:"uppercase",letterSpacing:"wide",color:"gray.600",children:"Try to go somewhere else"})]});export{n as default};
