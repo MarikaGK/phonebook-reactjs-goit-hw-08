@@ -71,122 +71,30 @@ And run `npm run deploy` in command line
 
 ## Scope of functionality
 
-
-
----
-
-
-## How to install and run?
-
-Included depedencies:
-
-### $ npm install
-
-### $ npm intall vite
-
-### $ npm install @reduxjs/toolkit
-
-### $ npm install @reduxjs/toolkit react-redux
-
-### $ npm install axios
-
-### $ npm install redux-persist
-
-### $ npm install react-router-dom
-
-### $ npm install react-loader-spinner --save
-
-### $ npm install notiflix
-
-### $ npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
-
-### $ npm install @chakra-ui/icons
-
-
-## GitHub-pages deployment:
-
-### $ npm install gh-pages --save-dev
-
-Add script in package.json:
-
-### "scripts": { "deploy": "npm run build && gh-pages -d dist" },
-
-### $ npm run deploy
-
-
-## How to use the app?
-
-First of all you have to create new user using your name, email and password (it has to contain at least 8 characters). Then you can log in and you can create your contact list in library. You can filter your list by names.
-
-## Sources
-
-The project is based on a project created at the GoIT JavaScript Full Stack
-bootcamp Developer. It meets the design criteria imposed during the course and
-complements them with additional functionalities I've implemented on my own (functionality of contact edition)
-
-
-
-
-
-To install the application, make sure it is installed on your computer LTS
-version of Node.js [Download and install](https://nodejs.org/en/)
-
-Then install all dependencies contained in the file package.json by entering the
-`npm install` command in the terminal
-
----
-
-## Activation
-
-According to the `package.json` documentation, to run the project you need to use the `npm start` command
-
----
-
-## Scope of functionality
-
 - RWD and user friendly
 
-![Desktop](./assets/Screenshot_134.png) ![Tablet](./assets/Screenshot_135.png)
-![Mobile](./assets/Screenshot_136.png)
+- Create you account
 
-![Paginacja](./assets/Screenshot_142.png)
+- Login to your account
 
-- Follow movie trends: watch trailers, check ratings, movie descriptions, genres
+- Add contacts to list
 
-![Modal Desktop](./assets/Screenshot_138.png)
-![Modal Tablet](./assets/Screenshot_139.png)
-![Modal Mobile](./assets/Screenshot_140.png)
+- Edit or delete your contact
 
-- Search for titles that interest you using the `Search` function\
+- Filter contacts list
 
-![Searched](./assets/Screenshot_137.png)
-
-- Create an account on the website using your Google account
-
-  ![Google account](./assets/Screenshot_141.png)
-
-- Manage your private video collection by one click add movies in two queues: `Watched` and `Queue`
-
-  ![Watched&Queue](./assets/Screenshot_145.png)
-
-- Switch light/dark mode
-
-  ![Dark mode](./assets/Screenshot_143.png)
-
-#### Todo
-
-- Added the functionality of sorting films by genre
+---
 
 ## Project status
 
 The basic version of the project has been completed and the application is
 working
 
+---
+
 ## Sources
 
 The project is based on a project created at the GoIT JavaScript Full Stack
 bootcamp Developer. It meets the design criteria imposed during the course and
-complements them with additional functionalities implemented by our Team (modal
-window presenting the trailer, authorization using a Google account via
-Firebase, sorting by film genres or light/dark mode switcher)
+complements them with additional functionalities I've implemented on my own (functionality of contact edition)
 
