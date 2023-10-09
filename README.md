@@ -1,4 +1,4 @@
-# <img src="./src/assets/favicon.ico" alt="filmoteka logo" width="25"/> Simple phonebook [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-gray)](https://marikagk.github.io/simple-phonebook/)
+# <img src="./src/assets/favicon.ico" alt="Simple phonebook logo" width="25"/> Simple phonebook [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-gray)](https://marikagk.github.io/simple-phonebook/)
 
 One page app using heroku app for backend. Allows to sign up, log in and log out new users. With possibility to menage contacts list like adding, removing and editing contact data with filtering option.
 The app is based on Vite & React.js. It includes notilfix notifications and uses axios to get back-end data. The app uses routing from router-dom for client authorization and authentication.
