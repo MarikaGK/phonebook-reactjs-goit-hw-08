@@ -53,11 +53,24 @@ Then install all dependencies contained in the file package.json by entering the
 
 ## Activation
 
-According to the `package.json` documentation, to run the project you need to use the `npm start` command
+According to the `package.json` documentation, to run the project you need to use the `npm run dev` command
+
+---
+
+## GitHub-pages deployment:
+
+Simple phonebook is based on Vite. To deploy your own project, you have to use `npm install gh-pages --save-dev` command
+
+Next you have to add script in package.json:
+
+`"scripts": { "deploy": "npm run build && gh-pages -d dist" },`
+
+And run `npm run deploy` in command line
 
 ---
 
 ## Scope of functionality
+
 
 
 ---
