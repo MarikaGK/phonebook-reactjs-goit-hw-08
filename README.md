@@ -1,7 +1,7 @@
-# Simple phonebook [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-gray)](https://marikagk.github.io/simple-phonebook/)
+# <img src="./src/assets/favicon.ico" alt="filmoteka logo" width="25"/> Simple phonebook [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-gray)](https://marikagk.github.io/simple-phonebook/)
 
 One page app using heroku app for backend. Allows to sign up, log in and log out new users. With possibility to menage contacts list like adding, removing and editing contact data with filtering option.
-The app is based on Vite & React.js. It includes notilfix notifications and uses axios to get back-end data. The app uses routing from router-dom for client authorization and authentification.
+The app is based on Vite & React.js. It includes notilfix notifications and uses axios to get back-end data. The app uses routing from router-dom for client authorization and authentication.
 
 
 ---
@@ -39,6 +39,7 @@ The aim of the project was to practice working with React.js, and also react-rou
 - `redux-persist version 6.0.0` - for client authorization and authentication
 - `notiflix version 3.2.6` - user's notifications
 - `react-loader-spinner version 5.4.5` - for lazy load of routes
+- `ChakraUI version 2.8.0` - styling components, icons, generating contact's avatar
 
 ---
 
