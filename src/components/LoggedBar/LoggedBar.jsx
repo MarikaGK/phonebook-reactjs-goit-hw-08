@@ -8,10 +8,10 @@ const LoggedBar = () => {
   const dispatch = useDispatch();
 
   return (
-    <Wrap spacing="20px">
+    <Wrap spacing="20px" display="flex" alignItems="center">
       <WrapItem>
         <Flex flexDirection="column">
-          <Heading as="h2" size="md">
+          <Heading as="h2" size={{ base: "sm", md: "md"}}>
             Hello, {name}
           </Heading>
           <Text fontSize="xs">{email}</Text>

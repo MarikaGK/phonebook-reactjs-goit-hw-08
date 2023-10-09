@@ -22,7 +22,7 @@ const Navigation = () => {
     >
       <Container maxW="1600px" py="20px" px="25px" centerContent>
         <Box w="100%">
-          <Flex flexWrap="wrap">
+          <Flex flexWrap="wrap" gap="10px" justifyContent="center" alignItems="center">
             <UserMenu />
             <Spacer />
             {isLoggedIn ? <LoggedBar /> : <AuthNav />}

@@ -7,15 +7,15 @@ const UserMenu = () => {
 
   return (
     <nav>
-      <Flex gap="20px">
+      <Flex gap="20px" alignItems="center">
         <Link to="/">
-          <Heading as="h2" size="lg">
+          <Heading as="h2" size={{ base: "md", md: "lg"}}>
             PhoneBook
           </Heading>
         </Link>
         {isLoggedIn && (
           <Link to={`/contacts/`}>
-            <Button colorScheme="whiteAlpha" textColor="gray.800" type="button">
+            <Button colorScheme="whiteAlpha" textColor="gray.800" type="button" display={{ base: "none", md: "flex" }}>
               Contacts
             </Button>
           </Link>

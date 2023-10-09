@@ -19,7 +19,7 @@ const Filter = () => {
   };
 
   return (
-    <Box>
+    <Box px="20px">
       <FormLabel fontSize="md" paddingTop="20px" textColor="gray.800">
         Filter contacts by name
       </FormLabel>

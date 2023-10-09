@@ -1,20 +1,20 @@
-import PropTypes from 'prop-types';
-import { deleteContact } from '../../redux/contacts/operations';
-import { useState } from 'react';
-import ContactModal from '../ContactModal/ContactModal';
-import { Avatar, Button, Flex, Text } from '@chakra-ui/react';
-import { EditIcon } from '@chakra-ui/icons';
-import { useDispatch } from 'react-redux';
+import PropTypes from "prop-types";
+import { deleteContact } from "../../redux/contacts/operations";
+import { useState } from "react";
+import ContactModal from "../ContactModal/ContactModal";
+import { Avatar, Button, Flex, Text } from "@chakra-ui/react";
+import { EditIcon } from "@chakra-ui/icons";
+import { useDispatch } from "react-redux";
 
 const Contact = ({ id, name, number }) => {
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
   const dispatch = useDispatch();
 
-  const handleEdit = e => {
+  const handleEdit = (e) => {
     setIsEditModalOpen(true);
   };
 
-  const handleDelete = e => {
+  const handleDelete = (e) => {
     const { id } = e.target;
     dispatch(deleteContact(id));
   };
@@ -25,10 +25,23 @@ const Contact = ({ id, name, number }) => {
 
   return (
     <>
-      <Flex alignItems="center" gap="10px" py="10px">
+      <Flex
+        flexDirection={{ base: "column", md: "row" }}
+        justifyContent="center"
+        alignItems="center"
+        gap="10px"
+        py="10px"
+        borderRadius={{ base: "5px", md: "0" }}
+        boxShadow={{ base: "2px 2px 10px gray", md: "none" }}
+        width={{base: "200px", md: "auto"}}
+        height={{ base: "250px", md: "auto" }}
+      >
         <Avatar name={name} size="sm" />
-        <Text w="320px">
-          {name}: {number}
+        <Text w="180px" textAlign={{base: "center", md: "left"}}>
+          {name}:
+        </Text>
+        <Text w="180px" textAlign="center">
+          {number}
         </Text>
         <Button
           rightIcon={<EditIcon />}
