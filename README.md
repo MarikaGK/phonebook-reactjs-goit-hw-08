@@ -74,15 +74,35 @@ And run `npm run deploy` in command line
 
 - RWD and user friendly
 
+![Not signed in](./src/assets/screenshots/Screenshot_146.jpg)
+![Signed in](./src/assets/screenshots/Screenshot_147.jpg)
+![Mobile view](./src/assets/screenshots/Screenshot_154.jpg)
+
 - Create you account
+
+![Register](./src/assets/screenshots/Screenshot_148.jpg)
 
 - Login to your account
 
+![Login](./src/assets/screenshots/Screenshot_149.jpg)
+![Contacts list](./src/assets/screenshots/Screenshot_150.jpg)
+
 - Add contacts to list
+
+![Add contact](./src/assets/screenshots/Screenshot_151.jpg)
 
 - Edit or delete your contact
 
+![Edit contact](./src/assets/screenshots/Screenshot_152.jpg)
+
 - Filter contacts list
+
+![Edit contact](./src/assets/screenshots/Screenshot_155.jpg)
+
+- Get notifications about your actions
+
+![Notification](./src/assets/screenshots/Screenshot_153.jpg)
+
 
 ---
 
