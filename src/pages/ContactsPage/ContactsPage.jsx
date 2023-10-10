@@ -17,7 +17,7 @@ const ContactsPage = () => {
 
   return (
     <Flex
-      py={{ base: "20px", md: "30px", xl: "70px" }}
+      py={{ base: "0 20px", md: "30px", xl: "70px" }}
       justifyContent="center"
       gap={{ base: "20px", md: "10px", xl: "100px" }}
       flexDirection={{ base: "column", xl: "row"}}

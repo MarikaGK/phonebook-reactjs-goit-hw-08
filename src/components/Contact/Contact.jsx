@@ -34,7 +34,7 @@ const Contact = ({ id, name, number }) => {
         borderRadius={{ base: "5px", md: "0" }}
         boxShadow={{ base: "2px 2px 10px gray", md: "none" }}
         width={{base: "200px", md: "auto"}}
-        height={{ base: "250px", md: "auto" }}
+        height={{ base: "200px", md: "auto" }}
       >
         <Avatar name={name} size="sm" />
         <Text w="180px" textAlign={{base: "center", md: "left"}}>
